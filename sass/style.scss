@@ -1,0 +1,20 @@
+/* 
+ theme name : Rishi Theme 
+ Author: Deep
+ Version: 1.0
+*/
+
+@import "./base/all";
+@import "./base/container";
+@import "./base/typography";
+
+@import "./layout/header";
+@import "./layout/navigation";
+@import "./layout/footer";
+
+@import "./pages/home";
+
+@import "./component/buttons";
+@import "./component/scroll-top";
+
+@import "./vendors/slick";

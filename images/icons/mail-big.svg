@@ -1,0 +1,12 @@
+<svg id="twotone-email-24px" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Bounding_Boxes">
+    <path id="Path_185" data-name="Path 185" d="M0,0H48V48H0Z" fill="none"/>
+  </g>
+  <g id="Duotone" transform="translate(4 8)">
+    <g id="Group_20" data-name="Group 20">
+      <path id="Path_186" data-name="Path 186" d="M36,8,20,18,4,8V28H36Z" transform="translate(0 0)" fill="#fff" opacity="0.3"/>
+      <path id="Path_187" data-name="Path 187" d="M36,6H4l16,9.98Z" transform="translate(0 -2)" fill="#fff" opacity="0.3"/>
+      <path id="Path_188" data-name="Path 188" d="M6,36H38a4.012,4.012,0,0,0,4-4V8a4.012,4.012,0,0,0-4-4H6A4.012,4.012,0,0,0,2,8V32A4.012,4.012,0,0,0,6,36ZM38,8,22,17.98,6,8ZM6,12,22,22,38,12V32H6Z" transform="translate(-2 -4)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

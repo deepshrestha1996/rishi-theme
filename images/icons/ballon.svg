@@ -1,0 +1,12 @@
+<svg id="twotone-place-24px" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Bounding_Boxes">
+    <path id="Path_189" data-name="Path 189" d="M0,0H48V48H0Z" fill="none"/>
+  </g>
+  <g id="Duotone" transform="translate(10 4)">
+    <g id="Group_21" data-name="Group 21">
+      <path id="Path_190" data-name="Path 190" d="M27,14A10,10,0,1,0,7,14c0,5.7,5.84,14.42,10,19.76C21.24,28.38,27,19.76,27,14ZM12,14a5,5,0,1,1,5,5A5,5,0,0,1,12,14Z" transform="translate(-3 0)" fill="#fff" opacity="0.3"/>
+      <path id="Path_191" data-name="Path 191" d="M33,16A14,14,0,1,0,5,16C5,26.5,19,42,19,42S33,26.5,33,16ZM19,6A10,10,0,0,1,29,16c0,5.76-5.76,14.38-10,19.76C14.84,30.42,9,21.7,9,16A10,10,0,0,1,19,6Z" transform="translate(-5 -2)" fill="#fff"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="5" cy="5" r="5" transform="translate(9 9)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

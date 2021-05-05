@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="svg-music-play-button-icon-1" transform="translate(-6.9 -6.9)">
+    <g id="Circle" transform="translate(6.9 6.9)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="12.5" cy="12.5" r="12.5" transform="translate(0 0)" fill="#5798ff"/>
+    </g>
+    <g id="Triangle" transform="translate(16.836 15.208)">
+      <path id="Path_201" data-name="Path 201" d="M108,76.1l7.979,4.6L108,85.315Z" transform="translate(-108 -76.1)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

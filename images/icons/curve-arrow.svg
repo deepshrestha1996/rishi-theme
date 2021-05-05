@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.711" height="48.036" viewBox="0 0 70.711 48.036">
+  <g id="Arrow" transform="translate(35.32 -14.647) rotate(45)">
+    <g id="Group_7" data-name="Group 7" transform="translate(2 12.35)">
+      <g id="Group_6" data-name="Group 6">
+        <path id="Path_52" data-name="Path 52" d="M2,40.4h.61" transform="translate(-2 -4.8)" fill="none" stroke="#5798ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Path_53" data-name="Path 53" d="M8,44.216C23.492,40.537,32.885,28.67,35.812,13.6" transform="translate(-0.681 -9.803)" fill="none" stroke="#5798ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" stroke-dasharray="0.936 5.618"/>
+        <path id="Path_54" data-name="Path 54" d="M31.3,10.993a1.045,1.045,0,0,1,.122-.593" transform="translate(4.441 -10.4)" fill="none" stroke="#5798ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(25.803 -0.05)">
+      <g id="Group_8" data-name="Group 8">
+        <path id="Path_55" data-name="Path 55" d="M23.815,11.639A18.108,18.108,0,0,0,36.379,2.62H33.207A55.424,55.424,0,0,0,42.6,15.554c1.586,1.661,4.269-.831,2.562-2.492A49.176,49.176,0,0,1,36.379.84a1.858,1.858,0,0,0-3.172,0A15.293,15.293,0,0,1,22.839,8.2c-2.318.475-1.342,3.916.976,3.441Z" transform="translate(-21.514 0.05)" fill="#5798ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

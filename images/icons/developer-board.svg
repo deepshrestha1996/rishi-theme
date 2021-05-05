@@ -1,0 +1,15 @@
+<svg id="twotone-developer_board-24px" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Bounding_Boxes">
+    <path id="Path_20" data-name="Path 20" d="M0,0H48V48H0ZM0,0H48V48H0Z" fill="none"/>
+  </g>
+  <g id="Duotone" transform="translate(4 6)">
+    <g id="Group_2" data-name="Group 2">
+      <path id="Path_21" data-name="Path 21" d="M4,33H32V5H4ZM20,9h8v6H20Zm0,8h8V29H20ZM8,9H18V19H8ZM8,21H18v8H8Z" transform="translate(0 -1)" fill="#007bff" opacity="0.15"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="10" height="8" transform="translate(8 20)" fill="#007bff"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="10" height="10" transform="translate(8 8)" fill="#007bff"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="8" height="6" transform="translate(20 8)" fill="#007bff"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="8" height="12" transform="translate(20 16)" fill="#007bff"/>
+      <path id="Path_22" data-name="Path 22" d="M42,15V11H38V7a4.012,4.012,0,0,0-4-4H6A4.012,4.012,0,0,0,2,7V35a4.012,4.012,0,0,0,4,4H34a4.012,4.012,0,0,0,4-4V31h4V27H38V23h4V19H38V15ZM34,35H6V7H34Z" transform="translate(-2 -3)" fill="#007bff"/>
+    </g>
+  </g>
+</svg>
