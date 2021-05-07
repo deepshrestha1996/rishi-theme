@@ -16,8 +16,180 @@
         font-size: 14px;
         font-weight: 600;
         letter-spacing: 1px;
+        color: #000;
         img{
             vertical-align: middle;
         }
+    }
+}
+
+.nav-hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: solid 2px rgba($color: #000000, $alpha: 0.2);
+    border-radius: 9px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin: 19px 0;
+    span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 85%;
+        background-color: #333B68;
+        opacity: 1;
+        left: 0;
+        border-radius: 9px;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+        transition: 0.25s ease-in-out;
+        &:nth-child(1) {
+            top: 6px;
+            left: 3px;
+        }
+        &:nth-child(2) {
+            top: 20px;
+            left: 3px;
+        }
+        &:nth-child(3) {
+            top: 34px;
+            left: 3px;
+        }
+    }
+}
+.open-hamburger {
+    span {
+        &:nth-child(1) {
+            top: 18px;
+            -webkit-transform: rotate(135deg);
+            -moz-transform: rotate(135deg);
+            -o-transform: rotate(135deg);
+            transform: rotate(135deg);
+        }
+        &:nth-child(2) {
+            opacity: 0;
+            left: -60px;
+        }
+        &:nth-child(3) {
+            top: 18px;
+            -webkit-transform: rotate(-135deg);
+            -moz-transform: rotate(-135deg);
+            -o-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+        }
+    }
+}
+#mobile-navigation.mobile-main-navigation {
+    padding-top: 75px;
+    .mbl-header-inner-wrapper {
+        .site-logo {
+            padding: 15px 20px;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 1.34em;
+        }
+    }
+    #mbl-close-btn {
+        position: relative;
+        background: none;
+        cursor: pointer;
+        height: 30px;
+        width: 100%;
+        border: none;
+        margin-bottom: 30px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #000;
+            height: 100%;
+            width: 2px;
+            top: 0;
+            right: 20px;
+            transform: rotate(45deg);
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: #000;
+            height: 100%;
+            width: 2px;
+            top: 0;
+            right: 20px;
+            transform: rotate(-45deg);
+        }
+    }
+    .mbl-primary-menu-wrapper {
+        .mbl-nav-menu {
+            li {
+                padding: 15px 20px;
+                font-size: 20px;
+                line-height: 1.3em;
+                font-weight: 600;
+                border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+                &:hover {
+                    background-color: rgb(0, 123, 255);
+                    a {
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+            a {
+                color: #000;
+            }
+        }
+    }
+    .button-wrapper{
+        margin: 15px 0 0 20px;
+    }
+    .mbl-header-bottom{
+        .header-block{
+            margin: 20px;
+            svg{
+                vertical-align: top;
+                height: 20px;
+                width: 20px;
+            }
+            a{
+                padding-bottom: 10px;
+                padding-left: 10px;
+                color: #000;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1170px) {
+    #site-navigation.main-navigation {
+        display: none;
+        .nav-container {
+        }
+        .primary-menu-container {
+            padding-bottom: 33px;
+        }
+        .search {
+            padding-bottom: 33px;
+        }
+        .booking-button {
+            padding-bottom: 33px;
+        }
+    }
+    .nav-hamburger {
+        display: block;
+    }
+}
+@media screen and (min-width: 1170px) {
+    .nav-hamburger {
+        display: none !important;
     }
 }

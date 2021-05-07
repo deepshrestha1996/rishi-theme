@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rishi Theme</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <!-- fancybox 3-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
@@ -22,24 +29,24 @@
                 <div class="header-top-wrapper">
                     <div class="header-social-icons-wrapper">
                         <div class="header-social-icons">
-                            <a href=""><img src="./images/icons/social.svg" alt=""></a>
-                            <a href=""><img src="./images/icons/social.svg" alt=""></a>
-                            <a href=""><img src="./images/icons/social.svg" alt=""></a>
-                            <a href=""><img src="./images/icons/social.svg" alt=""></a>
-                            <a href=""><img src="./images/icons/social.svg" alt=""></a>
+                            <a href="#"><img src="./images/icons/social.svg" alt=""></a>
+                            <a href="#"><img src="./images/icons/social.svg" alt=""></a>
+                            <a href="#"><img src="./images/icons/social.svg" alt=""></a>
+                            <a href="#"><img src="./images/icons/social.svg" alt=""></a>
+                            <a href="#"><img src="./images/icons/social.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="header-contact-info-wrapper">
                         <div class="header-contact-info">
                             <div class="header-call-info">
-                                <a href="">
+                                <a href="#">
                                     <img src="./images/icons/call.svg" alt="Call-Icon">
                                     <span>(222) 400-630</span>
                                 </a>
 
                             </div>
                             <div class="header-email-info">
-                                <a href="">
+                                <a href="#">
                                     <img src="./images/icons/email.svg" alt="Email-Icon">
                                     <span>info@domain.com</span>
                                 </a>
@@ -71,12 +78,67 @@
                             <li><a href="#"> SHOP </a></li>
                             <li><a href="#"> CONTACT </a></li>
                             <div>
-                                <a href=""><img src="./images/icons/search.svg" alt="Search-Icon"></a>
+                                <a href="#"><img src="./images/icons/search.svg" alt="Search-Icon"></a>
                             </div>
                         </ul>
                     </nav>
+                    <div id="nav-hamburger" class="nav-hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div id="mbl-header-main" class="mbl-header-main" style="display: none;">
+            <nav id="mobile-navigation" class="mobile-main-navigation">
+                <div class="mbl-header-inner-wrapper">
+                    <div class="site-branding">
+                        <div class="site-logo">
+                            <h1>Appointment</h1>
+                        </div>
+                    </div>
+                    <!-- <button id="mbl-close-btn"></button> -->
+                    <div class="mbl-header-mid">
+
+                        <div class="mbl-primary-menu-wrapper">
+                            <ul class="mbl-nav-menu">
+                                <li><a href="">HOME</a></li>
+                                <li><a href="">SERVICES</a></li>
+                                <li><a href="">PORTFOLIO</a></li>
+                                <li><a href="">BLOG</a></li>
+                                <li><a href="">SHOP</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="button-wrapper">
+                            <a href="#" class="btn primary-button">CONTACT</a>
+                        </div>
+
+                    </div>
+                    <div class="mbl-header-bottom">
+                        <div class="header-block">
+                            <svg aria-hidden="true" data-prefix="fas" data-icon="phone" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+                                </path>
+                            </svg>
+                            <a href="tel:(222) 400-630">(222) 400-630</a>
+                        </div>
+                        <div class="header-block">
+                            <svg aria-hidden="true" data-prefix="fas" data-icon="envelope" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                                </path>
+                            </svg>
+                            <a href="mailto:info@domain.com">info@domain.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
         </div>
     </header>
     <div class="banner">
@@ -94,8 +156,8 @@
                     </div>
                     <div class="banner-content-button">
                         <div class="banner-button-wrapper">
-                            <a href="" class="btn primary-btn">GET STARTED TODAY</a>
-                            <a href="" class="btn secondary-btn">KNOW MORE</a>
+                            <a href="#" class="btn primary-btn">GET STARTED TODAY</a>
+                            <a href="#" class="btn secondary-btn">KNOW MORE</a>
                         </div>
 
                     </div>
@@ -111,7 +173,7 @@
                 <div data-fancybox="gallery" href="./images/video.png">
                     <img class="video-img" src="./images/video.png" alt="">
                     <div class="play-icon">
-                        <a href=""><img src="./images/icons/play.svg" alt=""></a>
+                        <a href="#"><img src="./images/icons/play.svg" alt=""></a>
                     </div>
                 </div>
 
@@ -171,7 +233,7 @@
                             anti-virus programs as an essential part of any Windows setup.
                         </div>
                         <div class="service-learn-more">
-                            <a href="">Learn More</a>
+                            <a href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -211,7 +273,10 @@
                                     support you
                                     to make you
                                     realise your dreams!</p>
-                                <a href="" class="btn secondary-btn">MORE ABOUT ME</a>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    <a href="#" class="btn secondary-btn">MORE ABOUT ME</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -271,7 +336,7 @@
                                 </div>
                             </div>
                             <div class="service-section-2-learn-more">
-                                <a href="">Learn More</a>
+                                <a href="#">Learn More</a>
                             </div>
                         </div>
                         <div class="service-section-2-carousel-teambox">
@@ -288,7 +353,7 @@
                                 </div>
                             </div>
                             <div class="service-section-2-learn-more">
-                                <a href="">Learn More</a>
+                                <a href="#">Learn More</a>
                             </div>
                         </div>
                         <div class="service-section-2-carousel-teambox">
@@ -305,7 +370,7 @@
                                 </div>
                             </div>
                             <div class="service-section-2-learn-more">
-                                <a href="">Learn More</a>
+                                <a href="#">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -448,7 +513,7 @@
                         <div class="upcoming-event-boxitem">
                             <span class="upcoming-day">21</span>
                             <span class="upcoming-month">MARCH</span>
-                            <div class="upcoming-location"><img src="./images/icons/BALOON.svg" alt=""> Kathmandu, Nepal
+                            <div class="upcoming-location"><img src="./images/icons/blue-baloon-.svg" alt=""> Kathmandu, Nepal
                             </div>
                             <div class="upcoming-title">Toastmaster Anniversary</div>
                             <div class="upcoming-date">9am - 12pm | Wednesday</div>
@@ -459,7 +524,7 @@
                         <div class="upcoming-event-boxitem">
                             <span class="upcoming-day">08</span>
                             <span class="upcoming-month">APRIL</span>
-                            <div class="upcoming-location"><img src="./images/icons/BALOON.svg" alt=""> Memphis, UK
+                            <div class="upcoming-location"><img src="./images/icons/blue-baloon-.svg" alt=""> Memphis, UK
                             </div>
                             <div class="upcoming-title">Unleash the power within</div>
                             <div class="upcoming-date">12pm - 3pm | Thursday</div>
@@ -470,7 +535,7 @@
                         <div class="upcoming-event-boxitem">
                             <span class="upcoming-day">16</span>
                             <span class="upcoming-month">OCTOBER</span>
-                            <div class="upcoming-location"><img src="./images/icons/BALOON.svg" alt="">Tokyo, Japan
+                            <div class="upcoming-location"><img src="./images/icons/blue-baloon-.svg" alt="">Tokyo, Japan
                             </div>
                             <div class="upcoming-title">Business events worth seeking out in Detroit</div>
                             <div class="upcoming-date">9am - 12pm | Saturday</div>
@@ -522,7 +587,7 @@
                             <span class="amount">0</span>
                         </div>
                         <div class="billed-per-mth">BILLED PER MONTH</div>
-                        <a href="#" class="btn primary-btn">MAKE AN APPOINTMENT</a>
+                        <a href="#" class="btn secondary-btn">MAKE AN APPOINTMENT</a>
 
                     </div>
                     <ul class="pricing-list">
@@ -542,7 +607,7 @@
                             <span class="amount">89</span>
                         </div>
                         <div class="billed-per-mth">BILLED PER MONTH</div>
-                        <a href="#" class="btn secondary-btn">MAKE AN APPOINTMENT</a>
+                        <a href="#" class="btn primary-btn">MAKE AN APPOINTMENT</a>
 
                     </div>
                     <ul class="pricing-list">
@@ -556,13 +621,13 @@
                 </div>
                 <div class="pricing-items">
                     <div class="top">
-                        <span class="category">ENTERPRISE</span>
+                        <span class="category">ENTERPRISES</span>
                         <div class="pricing">
                             <span class="currency">$</span>
                             <span class="amount">299</span>
                         </div>
                         <div class="billed-per-mth">BILLED PER MONTH</div>
-                        <a href="#" class="btn primary-btn">MAKE AN APPOINTMENT</a>
+                        <a href="#" class="btn secondary-btn">MAKE AN APPOINTMENT</a>
 
                     </div>
                     <ul class="pricing-list">
@@ -828,12 +893,15 @@
                     <div class="newsletter-content">
                         Join me to learn how to unlock your inner greatness and build a profitable business you love!
                     </div>
+                </div>
+                <div class="newsletter-form-container">
                     <form class="newsletter-form" action="" method="POST">
                         <input type="text" placeholder="Your First Name...">
                         <input type="email" placeholder="Your Email Address...">
-                        <a href="" class="btn primary-btn">SIGN UP</a>
+                        <a href="#" class="btn primary-btn">SIGN UP</a>
                     </form>
                 </div>
+
             </div>
 
         </div>
@@ -847,7 +915,7 @@
 
             <div class="podcast-heading-wrapper">
                 <div class="podcast-heading">
-                    Podcast
+                    Podcasts
                 </div>
                 <div class="podcast-desc">
                     It’s complicated I’ve spent more than 20 years recommending various anti-virus programs as an
@@ -869,10 +937,10 @@
                             </div>
                             <div class="podcast-share-play-btn">
                                 <div class="podcast-play">
-                                    <a href=""><img src="./images/icons/blue-play-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-play-btn.svg" alt=""></a>
                                 </div>
                                 <div class="podcast-share">
-                                    <a href=""><img src="./images/icons/blue-share-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-share-btn.svg" alt=""></a>
                                 </div>
 
                             </div>
@@ -892,10 +960,10 @@
                             </div>
                             <div class="podcast-share-play-btn">
                                 <div class="podcast-play">
-                                    <a href=""><img src="./images/icons/blue-play-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-play-btn.svg" alt=""></a>
                                 </div>
                                 <div class="podcast-share">
-                                    <a href=""><img src="./images/icons/blue-share-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-share-btn.svg" alt=""></a>
                                 </div>
 
                             </div>
@@ -915,10 +983,10 @@
                             </div>
                             <div class="podcast-share-play-btn">
                                 <div class="podcast-play">
-                                    <a href=""><img src="./images/icons/blue-play-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-play-btn.svg" alt=""></a>
                                 </div>
                                 <div class="podcast-share">
-                                    <a href=""><img src="./images/icons/blue-share-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-share-btn.svg" alt=""></a>
                                 </div>
 
                             </div>
@@ -938,10 +1006,10 @@
                             </div>
                             <div class="podcast-share-play-btn">
                                 <div class="podcast-play">
-                                    <a href=""><img src="./images/icons/blue-play-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-play-btn.svg" alt=""></a>
                                 </div>
                                 <div class="podcast-share">
-                                    <a href=""><img src="./images/icons/blue-share-btn.svg" alt=""></a>
+                                    <a href="#"><img src="./images/icons/blue-share-btn.svg" alt=""></a>
                                 </div>
 
                             </div>
@@ -982,11 +1050,12 @@
                     <p>Do you have a business or an idea you are passionate about but you don’t have the knowledge or
                         time
                         to create the web material and strategy you need?</p>
-                    <p>No worries! I have created a group of like-minded people to help you grow your business online.
-                        Everything is about you and what you want to do, I am only here to guide you and support you to
-                        make
-                        you realise your dreams!</p>
-                    <a href="" class="btn primary-btn">READ MORE STORIES</a>
+                    <p>I will give you a complete account of the system, and expound the actual teachings of the great
+                        explorer of the truth, the master-builder of human enough happiness. </p>
+                    <div style="margin-top: 1px;">
+                        <a href="" class="btn primary-btn">READ MORE STORIES</a>
+                    </div>
+                    
                 </div>
 
             </div>
@@ -1001,10 +1070,10 @@
     <div class="blog-post-section">
         <div class="container">
             <div class="blog-post-title">
-                <div class="blog-post-heading">
+                <div class="blog-post-section-heading">
                     Latest News & Articles
                 </div>
-                <div class="blog-post-content">
+                <div class="blog-post-section-content">
                     It’s complicated. I’ve spent more than 20 years recommending various anti-virus programs as an
                     essential part of any Windows setup.
                 </div>
@@ -1109,7 +1178,7 @@
                         </div>
                         <div class="contact-details-boxitems">
                             <div class="visit-us-wrapper">
-                                <a href="">
+                                <a href="#">
                                     <img src="./images/icons/ballon.svg" alt="">
                                     <div class="contact-details-text">
                                         Visit Me
@@ -1256,7 +1325,7 @@
                             <div class="form-join-club">
                                 <form action="" method="post">
                                     <input type="email" id="email" placeholder="Email Address">
-                                    <a href="" class="btn primary-btn">SIGN-UP</a>
+                                    <a href="#" class="btn primary-btn">SIGN-UP</a>
 
                                 </form>
                             </div>
@@ -1272,7 +1341,7 @@
                 <div class="site-info-box">
                     © Copyright 2018, Appointment Theme. All Rights Reserved. Theme by <span class="author-link"><a
                             href="#" target="_blank"> Rara Themes</a></span>. Powered by <span class="wp-link"><a
-                            href="" target="_blank">WordPress</a></span>.
+                            href="#" target="_blank">WordPress</a></span>.
                 </div>
                 <div class="site-icon-box">
                     <a href="#"><img src="./images/icons/facebook1.svg" alt="instaSVG" /></a>

@@ -48,8 +48,10 @@ $('.featured-on-icons-container').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     mobileFirst: true,
-    arrows: false,
+    arrows: true,
     dots: false,
+    nextArrow: '<div class="slick-costom-arrow slick-costom-arrow-right"><img src="./images/icons/sharp-right.svg"></div>',
+    prevArrow: '<div class="slick-costom-arrow slick-costom-arrow-left"><img src="./images/icons/sharp-left.svg"></div>',
     responsive: [
         {
             breakpoint: 1170,
@@ -163,4 +165,62 @@ $(window).on('resize', function () {
     $('.blog-post-carousel').slick('resize');
 });
 
-//////////////////////
+   /////////////////hamburger animation//////////////////////
+
+   $(document).ready(function () {
+    $(".nav-hamburger").click(function () {
+        $(this).toggleClass('open-hamburger');
+    });
+});
+
+ //////////////////mbl header close//////////////
+
+ var mblCloseBtn = document.getElementById("mbl-close-btn");
+ var mblHeaderMain = document.getElementById("mbl-header-main");
+ var navHam = document.getElementById('nav-hamburger');
+ var siteLogo =  document
+ function closeMblMenu() {
+     if (mblHeaderMain.style.display = 'block') {
+         mblHeaderMain.style.display = 'none';
+     }
+     // navHam.style.display='block';
+
+ }
+ function openMblMenu() {
+     if (mblHeaderMain.style.display = 'none') {
+         mblHeaderMain.style.display = 'block';
+     }
+     // navHam.style.display='none';
+
+
+ }
+ // mblCloseBtn.addEventListener('click', closeMblMenu, true);
+
+
+ //////////////////mbl header open///////////////
+
+
+ var toggle = 0;
+ $(navHam).click(function () {
+
+     if (toggle == 1) {
+         // navHam.addEventListener('click', closeMblMenu);
+
+         if (mblHeaderMain.style.display = 'block') {
+             mblHeaderMain.style.display = 'none';
+         }
+         toggle = 0;
+
+
+
+     }
+     else {
+
+         if (mblHeaderMain.style.display = 'none') {
+             mblHeaderMain.style.display = 'block';
+         }
+
+         // navHam.addEventListener('click', openMblMenu);
+         toggle = 1;
+     }
+ })
